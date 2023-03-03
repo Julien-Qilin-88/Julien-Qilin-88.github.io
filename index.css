@@ -1,21 +1,19 @@
 /* mise en page général */
 
 #content{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    grid-auto-rows: minmax(100px, auto);
+
 }
 .box1{
-    grid-column: 1;     
+         
 } 
 .box2{
-    grid-column: 1;    
+        
 }
 .box3{
-    grid-column: 1;
+    
 }
 /* mise en page fin */
+
 /* NavBar */
 .tete{
     position: absolute;
