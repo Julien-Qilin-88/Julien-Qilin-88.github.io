@@ -1,29 +1,14 @@
-/* mise en page général */
-
-#content{
-
-}
-.box1{
-         
-} 
-.box2{
-        
-}
-.box3{
-    
-}
-/* mise en page fin */
-
 /* NavBar */
-.tete{
-    position: absolute;
+body{
+    margin: 0;
+ 
 }
 .wrapper {
     padding-top: 50px;
     text-align: left;
-    position: relative;
+    position: absolute;
 }
-.button {
+.btn {
     padding: 15px 50px;
     margin: 10px 4px;
     color: #F78524;
@@ -34,8 +19,9 @@
     text-decoration: none;
     display: inline-block;
     border: 1px solid;
+    z-index: 10;
 }
-.button::before {
+.btn::before {
     content: "";
     position: absolute;
     top: 0;
@@ -47,11 +33,13 @@
     -webkit-transform: scaleY(0.1);
     transform: scaleY(0.1);
     transition: all 0.4s;
+    
 }
-.button:hover {
+.btn:hover {
     color: #FFBD92;
+    
 }
-.button:hover::before {
+.btn:hover::before {
     opacity: 1;
     background-color: #F78524;
     -webkit-transform: scaleY(1);
@@ -60,3 +48,15 @@
     transition: transform 0.6s cubic-bezier(0.08, 0.35, 0.13, 1.02), opacity;
 }
 /* NavBar */
+
+/* qualité */
+
+.content {
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;  
+  }
+  .logo-box{
+    padding: 15px 100px;
+  }
