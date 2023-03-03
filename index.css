@@ -51,12 +51,39 @@ body{
 
 /* qualité */
 
-.content {
+.content1 {
 
     display: flex;
     justify-content: space-between;
     text-align: center;  
-  }
-  .logo-box{
+}
+.logo-box{
     padding: 15px 100px;
   }
+
+  /* qualité fin */
+
+  /* renseignement */
+
+.content2{
+    display: flex;
+    justify-content: space-around;
+   
+    align-items: center;
+
+  }
+.form-envoi-message{
+    display: grid;
+}
+
+  /* renseignement fin */
+
+  /* footer */
+.pied-de-page{   
+
+    margin-top: 50px; 
+    display: grid;
+    text-align: center;
+}
+
+  /* footer fin */
