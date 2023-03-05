@@ -72,21 +72,30 @@ body{
 .content2{
     
     text-align: center;
-       
-    columns: 3 auto;
+
+    columns: 3;
 
   }
+
 .content2-1{
-    display: grid;
-    grid-template-rows: 0.5fr 1fr 1fr;
-    gap: 5px 10em;
-    padding: 0.5em;
-    margin: 1em;
+    
+    gap: 0;
+    padding: 2em;
     border: solid #F78524;
     border-radius: 1em;
 
-
 }
+.form-control{
+    display: grid;
+    gap: 1em;
+}
+.adresse{
+    margin-left: 8em;
+}
+.form1{
+    margin-right: 8em;
+}
+
 
   /* renseignement fin */
 
