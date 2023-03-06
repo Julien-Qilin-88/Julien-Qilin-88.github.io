@@ -1,7 +1,9 @@
 /* NavBar */
 body{
     margin: 0;
- 
+    font-family: 'Lato';
+    font-size: 15px;
+
 }
 .header-image{
     width: 100%;
@@ -68,39 +70,38 @@ body{
   /* qualité fin */
 
   /* renseignement */
-
+.envies{
+    border: solid #F78524;
+    margin-left: 6em;
+    margin-right: 6em;
+    border-radius: 0.5em;
+    text-align: center; 
+     
+    font-size: 25px;
+}
 .content2{    
-    text-align: center;
-    columns: 3;
+    display: flex;
+    min-height: auto;    
   }
 .adresse1{
-    margin-left: 8em;
+    padding-left: 10em;
+    margin: auto;    
 }
 .form1{
-    margin-right: 8em;   
-   
+    margin: auto;    
+    padding-right: 10em;
 }
 .form1b{
     display: grid;
-    border: none;
-    padding-top: 1em;
-    
+    border: none;    
 }
-.adresse2{
-    color: #F78524;
-}
-.telephone{
-    color: #F78524;
-}
-.mail{
-    color: #F78524;
-}
+
 input, textarea {
     width: 100%;
     padding: 3px 10px;
     margin: 3px 0;
     box-sizing: border-box;
-    border: 2px solid #ecb25b;
+    border: 2px solid #e4caa4;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
@@ -109,6 +110,11 @@ input, textarea {
   input:focus, textarea:focus {
     border: 2px solid #F78524;
   }
+.maps{
+    margin: auto;    
+    background-color: aqua;
+}
+
 
   /* renseignement fin */
 
