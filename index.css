@@ -69,33 +69,46 @@ body{
 
   /* renseignement */
 
-.content2{
-    
+.content2{    
     text-align: center;
-
     columns: 3;
-
   }
-
-.content2-1{
-    
-    gap: 0;
-    padding: 2em;
-    border: solid #F78524;
-    border-radius: 1em;
-
-}
-.form-control{
-    display: grid;
-    gap: 1em;
-}
-.adresse{
+.adresse1{
     margin-left: 8em;
 }
 .form1{
-    margin-right: 8em;
+    margin-right: 8em;   
+   
 }
-
+.form1b{
+    display: grid;
+    border: none;
+    padding-top: 1em;
+    
+}
+.adresse2{
+    color: #F78524;
+}
+.telephone{
+    color: #F78524;
+}
+.mail{
+    color: #F78524;
+}
+input, textarea {
+    width: 100%;
+    padding: 3px 10px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border: 2px solid #ecb25b;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input:focus, textarea:focus {
+    border: 2px solid #F78524;
+  }
 
   /* renseignement fin */
 
