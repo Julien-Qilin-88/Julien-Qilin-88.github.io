@@ -79,18 +79,49 @@ body{
 }
 .main1a{
     margin: auto;   
-    
+    text-align: right;
+}
+.main1ab{
+    margin: auto;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .main1b{
     margin: auto;
 }
-.main1c{
+.main1cb{
     margin: auto;
-    
+}
+.main1c{
+    margin: auto; 
+}
+
+
+.horizontal1{
+    display: flex;
+}
+.vertical1{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 3em;
+}
+.vertical2{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.horizontal2{
+    margin-right: 3em;
 }
   /* renseignement */
 .envies{
-    border: solid #F78524;
+    border: 1px solid #F78524;
     margin-left: 6em;
     margin-right: 6em;
     border-radius: 0.5em;
