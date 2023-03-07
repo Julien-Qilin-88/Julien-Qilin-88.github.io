@@ -10,6 +10,7 @@ body{
     max-width: 2000px;
 }
 .wrapper {
+    margin-left: 10em;
     padding-top: 50px;
     text-align: left;
     position: absolute;
@@ -58,7 +59,8 @@ body{
 /* qualité */
 
 .content1 {
-
+    padding-left: 8em;
+    padding-right: 8em;
     display: flex;
     justify-content: space-between;
     text-align: center;  
@@ -70,19 +72,21 @@ body{
   /* qualité fin */
   /* main 1 */
 .main1{
+    padding-left: 10em;
+    padding-right: 10em;
     display: flex;
     min-height: auto;
 }
 .main1a{
     margin: auto;   
-    padding-left: 10em;
+    
 }
 .main1b{
     margin: auto;
 }
 .main1c{
     margin: auto;
-    padding-right: 10em;
+    
 }
   /* renseignement */
 .envies{
@@ -94,17 +98,17 @@ body{
      
     font-size: 25px;
 }
-.content2{    
+.content2{ 
+    padding-left: 10em;
+    padding-right: 10em;   
     display: flex;
     min-height: auto;    
   }
 .adresse1{
-    padding-left: 10em;
     margin: auto;    
 }
 .form1{
     margin: auto;    
-    padding-right: 10em;
 }
 .form1b{
     display: grid;
