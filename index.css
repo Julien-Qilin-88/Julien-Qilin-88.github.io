@@ -119,8 +119,9 @@ input, textarea {
   /* renseignement fin */
 
   /* footer */
-.pied-de-page{   
-
+.pied-de-page{  
+    padding-top: 4em; 
+    background: linear-gradient(to top, #FFBD92, 50%, #F78524);
     margin-top: 50px; 
     display: grid;
     text-align: center;
