@@ -68,7 +68,20 @@ body{
   }
 
   /* qualité fin */
-
+  /* main 1 */
+.main1{
+    display: flex;
+    min-height: auto;
+}
+.main1a{
+    margin: auto;   
+}
+.main1b{
+    margin: auto;
+}
+.main1c{
+    margin: auto;
+}
   /* renseignement */
 .envies{
     border: solid #F78524;
@@ -112,7 +125,6 @@ input, textarea {
   }
 .maps{
     margin: auto;    
-    background-color: aqua;
 }
 
 
