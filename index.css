@@ -75,12 +75,14 @@ body{
 }
 .main1a{
     margin: auto;   
+    padding-left: 10em;
 }
 .main1b{
     margin: auto;
 }
 .main1c{
     margin: auto;
+    padding-right: 10em;
 }
   /* renseignement */
 .envies{
@@ -124,7 +126,8 @@ input, textarea {
     border: 2px solid #F78524;
   }
 .maps{
-    margin: auto;    
+    margin: auto;  
+      
 }
 
 
