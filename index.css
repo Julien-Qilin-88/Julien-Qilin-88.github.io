@@ -8,6 +8,8 @@ body{
 .header-image{
     width: 100%;
     max-width: 2000px;
+    padding-bottom: 6em;
+
 }
 .wrapper {
     margin-left: 10em;
