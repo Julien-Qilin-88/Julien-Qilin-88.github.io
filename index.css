@@ -37,6 +37,8 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
+  opacity: 80%;
+
 }
 /* Change the link color to #111 (black) on hover */
 .bar a:hover {
