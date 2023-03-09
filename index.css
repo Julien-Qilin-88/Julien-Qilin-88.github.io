@@ -134,12 +134,12 @@ ul {
   /* renseignement */
 .envies{
     border: 1px solid #FF8522;
-    margin-left: 6em;
-    margin-right: 6em;
+    margin: 5em;
     border-radius: 0.5em;
-    text-align: center; 
-     
+    text-align: center;      
     font-size: 25px;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .content2{ 
     padding-left: 10em;
@@ -182,11 +182,12 @@ input, textarea {
 
   /* footer */
 .pied-de-page{  
-    padding-top: 4em; 
+    padding-top: 2em; 
     background-color: #FF8522;
     margin-top: 50px; 
     display: grid;
     text-align: center;
+    margin-top: 5em;
 }
 
   /* footer fin */
