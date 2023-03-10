@@ -4,6 +4,12 @@ body{
   font-size: 15px;
 }
 
+/* Divers */
+
+.liens{
+  color: black
+}
+
 /* Header */
 
   /* NavBar */
@@ -14,7 +20,7 @@ body{
   padding: 0;
   overflow: hidden;
   background-color: #FF8522; 
-  z-index: 3;    
+  z-index: 3;   
 }
 .bar {
   float: left;
@@ -36,6 +42,7 @@ ul {
   background-color: #ffffff;
   color: #FF8522;
   font-weight: bolder;
+
 }
 
   /* responsive navbar */
@@ -74,8 +81,29 @@ ul {
   text-align: center;      
 }
 .logo-box{
-    padding: 15px 100px;
-  }
+  padding: 15px 100px;
+}
+.efficacitelogo{
+  width: 6vw
+}
+.efficacite{
+  color: #538B9F
+}
+.flexibilitelogo{
+  width: 6vw;
+  padding-top: 0.5em;
+}
+.flexibilite{
+  color: #FF8522;
+}
+.experiencelogo{
+  width: 6vw;
+  padding-top: 1em;
+}
+.experience{
+  color:#3A3A3A
+}
+
 
 /* Header fin */
 
@@ -116,6 +144,7 @@ ul {
 .main1b{
   margin: auto;
   padding-right: 3em;
+  width: 75vh
 }
 .main1cb{
   margin: auto;
@@ -123,14 +152,17 @@ ul {
 .main1c{
   margin: auto; 
 }
+
   /* Mes connaissances logo */
 
 .mainpucelogo1{
   margin-top: 2em;
+  color: #FF8522
 }
 .mainpucelogo2{
   margin-right: 3em;
   margin-top: 2em;
+  color: #FF8522
 }
 
   /* A propos */
@@ -150,56 +182,60 @@ ul {
   margin-left: 5em;
 }
 
-
-
-
 /* Header fin */
 
 /* Des envies ? Des projets ? */
 
 .envies{
-    border: 1px solid #FF8522;
-    margin: 5em;
-    border-radius: 0.5em;
-    text-align: center;      
-    font-size: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
+  border: 1px solid #FF8522;
+  margin: 5em;
+  border-radius: 0.5em;
+  text-align: center;      
+  font-size: 25px;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 .content2{ 
-    padding-left: 10em;
-    padding-right: 10em;   
-    display: flex;
-    min-height: auto;    
-  }
+  padding-left: 10em;
+  padding-right: 10em;   
+  display: flex;
+  min-height: auto;    
+}
 .adresse1{
-    margin: auto;    
+  margin: auto;    
 }
 .form1{
-    margin: auto;    
+  margin: auto;    
 }
 .form1b{
-    display: grid;
-    border: none;    
+  display: grid;
+  border: none;    
 }
-
 input, textarea {
-    width: 100%;
-    padding: 3px 10px;
-    margin: 3px 0;
-    box-sizing: border-box;
-    border: 2px solid #e4caa4;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-  }
-  
-  input:focus, textarea:focus {
-    border: 2px solid #FF8522;
-  }
+  width: 100%;
+  padding: 3px 10px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border: 2px solid #e4caa4;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}  
+input:focus, textarea:focus {
+  border: 2px solid #FF8522;
+}
 .maps{
-    margin: auto;  
-      
+  margin: auto;        
+}
+.mainpucelogo3{
+  color: #FF8522;
+}
+.formulaire{
+  margin-left: 2em;
+}
+.submitform{
+  width: 150px;
+  margin-left: 9em;
 }
 
 
@@ -214,5 +250,7 @@ input, textarea {
     text-align: center;
     margin-top: 5em;
 }
-
+.footerlogo{
+  color: black;
+}
   /* footer fin */
