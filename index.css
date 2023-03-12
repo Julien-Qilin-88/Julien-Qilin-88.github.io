@@ -116,14 +116,13 @@ ul {
   display: flex;
 }
 .vertical1{
-  height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-right: 3em;    
 }
 .vertical2{
-  height: 80px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -135,7 +134,7 @@ ul {
   padding-left: 10em;
   padding-right: 10em;
   display: flex;
-  min-height: auto;
+  
 }
 .main1a{
   margin: auto;   
